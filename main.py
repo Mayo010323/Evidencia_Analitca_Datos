@@ -10,7 +10,7 @@ def main():
     st.title("Mi Tablero Streamlit")
 
     # Cargar datos
-    ventastot = '/Users/sepla/Evidencia_main/ventas_concatenadas.csv'
+    ventastot = 'ventas_concatenadas.csv'
     ventas = cargar_datos(ventastot)
 
     # Limpiar datos de ventas
